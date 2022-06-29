@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  
+  .wrapper {
+    height: 100vh;
+    background: #000;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    box-shadow:  5px 10px 30px rgba(177, 176, 156, 0.753);
+  }
+  
+  .portrait {
+    font-size: 10px;
+    line-height: 15px;
+    background: url("profile-modified.png")
+         fixed center no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: auto;
+
+  }
+  
+  /* This part is important for the feature itself */
+  .portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(241, 237, 237, 0.74);
+  }
+  .portrait :hover{
+
+    background-color:rgba(241, 237, 237, 0.74); 
+    transition: all ease 0.3s;
+    color: #ffffff;
+  
+cursor: pointer;}
