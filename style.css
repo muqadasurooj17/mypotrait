@@ -1,40 +1,40 @@
+
+  
+  
+
+
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  
-  .wrapper {
-    height: 100vh;
-    background: #000;
-    /*This part is important for centering*/
-    display: grid;
-    place-items: center;
-    box-shadow:  5px 10px 30px rgba(177, 176, 156, 0.753);
-  }
-  
-  .portrait {
-    font-size: 10px;
-    line-height: 15px;
-    background: url("profile-modified.png")
-         fixed center no-repeat;
-    background-size: contain;
-    height: 60px;
-    width: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  }
-  
-  /* This part is important for the feature itself */
-  .portrait {
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(241, 237, 237, 0.74);
-  }
-  .portrait :hover{
+.wrapper {
+  height: 100vh;
+  background: #000;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
 
-    background-color:rgba(241, 237, 237, 0.74); 
-    transition: all ease 0.3s;
-    color: #ffffff;
-  
-cursor: pointer;}
+/*.portrait {
+  font-size: 10px;
+  line-height: 10px;
+  background: url('https://markodenic.com/wp-content/themes/blog/images/marko.png') fixed center no-repeat;
+  background-size: contain;
+}*/
+
+.portrait {
+  font-size: 10px;
+  line-height: 10px;
+  background: url("potraot.png")
+       fixed center no-repeat;
+  background-size: contain;
+}
+
+/* This part is important for the feature itself */
+.portrait {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.042);
+}
