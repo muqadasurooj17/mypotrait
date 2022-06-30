@@ -1,8 +1,4 @@
 
-  
-  
-
-
 body {
   margin: 0;
   padding: 0;
@@ -17,12 +13,6 @@ body {
   place-items: center;
 }
 
-/*.portrait {
-  font-size: 10px;
-  line-height: 10px;
-  background: url('https://markodenic.com/wp-content/themes/blog/images/marko.png') fixed center no-repeat;
-  background-size: contain;
-}*/
 
 .portrait {
   font-size: 10px;
